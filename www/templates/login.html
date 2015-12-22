@@ -1,0 +1,12 @@
+<ion-view title="Login">
+  <div class="list list-inset">
+    <label class="item item-input">
+      <input type="text" required ng-model="user.userName" placeholder="Email">
+    </label>
+    <label class="item item-input">
+      <input required type="password" ng-model="user.password" placeholder="Password">
+    </label>
+
+    <button data-ng-disabled="!user.userName || !user.password" ng-click="loginNow()" class="button button-positive button-block">Login</button>
+  </div>
+</ion-view>

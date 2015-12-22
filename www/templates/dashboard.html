@@ -1,0 +1,13 @@
+<ion-view title="Dashboard">
+  <div class="card">
+    <div class="item item-divider item-positive">
+      Welcome!
+    </div>
+    <div class="item item-text-wrap">
+      {{user.firstName | capitalize }} {{ user.lastName | capitalize}}
+    </div>
+    <div class="item item-divider">
+      <button class="button button-block button-positive" ui-sref="home">Logout</button>
+    </div>
+  </div>
+</ion-view>

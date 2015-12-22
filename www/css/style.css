@@ -1,0 +1,11 @@
+.loader svg {
+  width: 50px;
+  height: 50px;
+  stroke: #387EF5;
+  fill: #387EF5;
+}
+
+.loader-box {
+  text-align: center;
+  padding: 10% 0 10% 0
+}
