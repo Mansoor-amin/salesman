@@ -7,7 +7,7 @@
       <input type="text" required ng-model="user.lastName" placeholder="Last Name">
     </label>
     <label class="item item-input">
-      <input type="text" required ng-model="user.userName" placeholder="Email">
+      <input type="email" required ng-model="user.userName" placeholder="Email">
     </label>
     <label class="item item-input">
       <input type="text" required ng-model="user.password" placeholder="Password">
@@ -16,7 +16,9 @@
       <input required type="password" ng-model="user.ConfirmPassword" placeholder="Confirm Password">
     </label>
 
-    <button ng-click="addUser()" class="button button-positive button-block">Sign Up</button>
+    <button data-ng-disabled="!user.firstName||!user.lastName||!user.userName||!user.ConfirmPassword||!user.password"
+            ng-click="addUser()" class="button button-positive button-block">Sign Up
+    </button>
   </div>
 </ion-view>
 
