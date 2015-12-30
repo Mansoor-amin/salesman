@@ -8,9 +8,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/:uid', function (req, res) {
-  console.log(req.params.uid);
   usersModel.find({_id: req.params.uid}, function (err, success) {
-    console.log(success || err);
     res.send(success || err);
   });
 });

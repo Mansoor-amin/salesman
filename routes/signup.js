@@ -13,7 +13,6 @@ router.post('/signup', function (req, res) {
         user.save(function (err, success) {
             res.send(err || success);
         });
-        console.log(data);
     });
 });
 router.post('/login', function (req, res) {

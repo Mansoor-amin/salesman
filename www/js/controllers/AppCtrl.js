@@ -1,4 +1,4 @@
 angular.module("salesman")
-  .controller("AppCtrl", function ($scope, $timeout, $location,$ionicModal) {
+  .controller("AppCtrl", function ($scope, $timeout, $location,$ionicModal,$state) {
 
   });
