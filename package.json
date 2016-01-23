@@ -1,40 +1,25 @@
 {
-  "name": "salesman",
-  "version": "1.1.1",
-  "description": "Salesman: An Ionic project",
-  "dependencies": {
-    "body-parser": "^1.14.2",
-    "cookie-parser": "^1.4.0",
-    "express": "^4.13.3",
-    "gulp": "^3.5.6",
-    "gulp-concat": "^2.2.0",
-    "gulp-minify-css": "^0.3.0",
-    "gulp-rename": "^1.2.0",
-    "gulp-sass": "^2.0.4",
-    "mongoose": "^4.3.3",
-    "mongoose-unique-validator": "^0.6.2",
-    "morgan": "^1.6.1",
-    "static-favicon": "^1.0.2"
-  },
-  "devDependencies": {
-    "bower": "^1.3.3",
-    "gulp-util": "^2.2.14",
-    "shelljs": "^0.3.0"
-  },
-  "cordovaPlugins": [
-    "cordova-plugin-device",
-    "cordova-plugin-console",
-    "cordova-plugin-whitelist",
-    "cordova-plugin-splashscreen",
-    "cordova-plugin-statusbar",
-    "ionic-plugin-keyboard"
-  ],
-  "cordovaPlatforms": [],
-  "main": "gulpfile.js",
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "node ./app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./app"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.0.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.0.1",
+    "cors": "^2.7.1",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "express": "~4.0.0",
+    "express-session": "^1.12.1",
+    "firebase": "^2.3.2",
+    "mongoose": "^4.3.2",
+    "mongoose-unique-validator": "^0.6.2",
+    "morgan": "~1.0.0",
+    "passport": "^0.3.2",
+    "static-favicon": "~1.0.0"
+  }
 }
